@@ -1,0 +1,15 @@
+.listOfVideos{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px;
+    padding: 40px;
+}
+
+
+.eachTile{
+    width: 21vw;
+    margin: 15px;
+}
