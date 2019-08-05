@@ -1,0 +1,100 @@
+.user-profile{
+    /* background-color: blueviolet; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.user-stats{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.user-header{
+    height: 35%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+
+.user-namePic{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.user-header img{
+    width: 120px;
+    border-radius: 22px;
+    margin: 15px;
+}
+
+.user-header h2{
+    margin-left: 15px;
+}
+
+.user-statboard{
+    height: 60%;
+    background-color: violet
+}
+
+.user-footer{
+    height: 10%;
+    background-color: indianred
+}
+
+
+.user-board{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: teal; */
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.user-leftboard{
+    width: 20vw;
+    height: 100vh;
+    background-color: wheat;
+}
+
+.user-stats{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.user-rightboard{
+    width: 80vw;
+    height: 100vh;
+    padding: 100px;
+    /* background-color: #0B2A7E; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.modal{
+    width: 40vw !important;
+}
+form{
+}
+
+
+.modal-content form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

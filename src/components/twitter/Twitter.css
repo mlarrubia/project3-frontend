@@ -1,0 +1,13 @@
+.twitter-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: seagreen;
+}
+
+.twitter-tweet{
+    width: 30vw;
+    height: 200px;
+    border-color: teal;
+}

@@ -1,0 +1,15 @@
+nav, span{
+    display: flex;
+    justify-content: flex-end;
+    background-color: chocolate;
+    width: 100px;
+    flex-direction: row;
+    width: 100vw;
+}
+button{
+    background-color: aqua;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px;
+}

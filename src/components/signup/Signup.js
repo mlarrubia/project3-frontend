@@ -4,7 +4,7 @@ import AuthService from '../../services/AuthService';
 class Signup extends Component {
     constructor(props) {
         super(props);
-        this.state = { usernameInput: '', passwordInput: '', type: '', };
+        this.state = { usernameInput: '', passwordInput: '', };
         this.service = new AuthService();
     }
 
@@ -16,9 +16,8 @@ class Signup extends Component {
         e.preventDefault();
         const uName = this.state.usernameInput;
         const pWord = this.state.passwordInput;
-        const theType = this.state.type;
 
-        this.service.signup(uName, pWord, theType)
+        this.service.signup(uName, pWord)
             .then((info) => {
                 console.log(info);
             })
@@ -44,13 +43,6 @@ class Signup extends Component {
                     name="passwordInput"
                     onChange={this.handleChange}
                 />
-
-                <legend>Type - admin or user</legend>
-                <input value={this.state.type}
-                    name="type"
-                    onChange={this.handleChange}
-                />
-
 
 
                 <button>Submit</button>
